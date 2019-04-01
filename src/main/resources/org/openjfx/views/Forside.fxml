@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="649.0" style="-fx-background-color: #FFF5C3#FFF5C3; -fx-border-color: black; -fx-border-width: 5px;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="95.0" layoutY="368.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="107.0" style="-fx-border-color: black;" text="Kjøp billett" textOverrun="WORD_ELLIPSIS" />
+      <Button layoutX="221.0" layoutY="368.0" mnemonicParsing="false" style="-fx-border-color: black;" text="Registrer Arrangement" />
+      <Button layoutX="396.0" layoutY="368.0" mnemonicParsing="false" style="-fx-border-color: black;" text="Se oversikt arrangement " />
+      <Text fill="#0b152f" layoutX="104.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Velkommen til kulturhuset">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="207.0" fitWidth="410.0" layoutX="149.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Bilder/kulturhuset01.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
