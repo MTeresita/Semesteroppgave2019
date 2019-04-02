@@ -8,9 +8,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="422.0" prefWidth="600.0" style="-fx-border-color: black; -fx-border-width: 5px; -fx-background-color: #EBEDEF;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.views.Billetter">
+<AnchorPane prefHeight="422.0" prefWidth="600.0" style="-fx-border-color: black; -fx-border-width: 5px; -fx-background-color: #EBEDEF;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.views.billettController">
    <children>
-      <Text layoutX="91.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Billetter bla bla" wrappingWidth="233.78466796875">
+      <Text layoutX="91.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Billetter" wrappingWidth="233.78466796875">
          <font>
             <Font size="24.0" />
          </font>

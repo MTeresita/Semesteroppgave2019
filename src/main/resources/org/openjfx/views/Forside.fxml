@@ -7,11 +7,11 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="649.0" style="-fx-background-color: #EBEDEF; -fx-border-color: black; -fx-border-width: 5px;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="649.0" style="-fx-background-color: #EBEDEF; -fx-border-color: black; -fx-border-width: 5px;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.controllers.forsideController">
    <children>
-      <Button layoutX="95.0" layoutY="368.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="107.0" style="-fx-border-color: black;" text="Kjøp billett" textOverrun="WORD_ELLIPSIS" />
-      <Button layoutX="221.0" layoutY="368.0" mnemonicParsing="false" style="-fx-border-color: black;" text="Registrer Arrangement" />
-      <Button layoutX="396.0" layoutY="368.0" mnemonicParsing="false" style="-fx-border-color: black;" text="Se oversikt arrangement " />
+      <Button fx:id="btnbillett" layoutX="95.0" layoutY="368.0" mnemonicParsing="false" onAction="#billett" prefHeight="27.0" prefWidth="107.0" style="-fx-border-color: black;" text="Kjøp billett" textOverrun="WORD_ELLIPSIS" />
+      <Button fx:id="btnregArr" layoutX="221.0" layoutY="368.0" mnemonicParsing="false" onAction="#regArr" style="-fx-border-color: black;" text="Registrer Arrangement" />
+      <Button fx:id="btnseOver" layoutX="396.0" layoutY="368.0" mnemonicParsing="false" onAction="#seOver" style="-fx-border-color: black;" text="Se oversikt arrangement " />
       <Text fill="#0b152f" layoutX="104.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Velkommen til kulturhuset">
          <font>
             <Font size="34.0" />
@@ -24,3 +24,5 @@
       </ImageView>
    </children>
 </AnchorPane>
+
+
