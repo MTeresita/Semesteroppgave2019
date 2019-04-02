@@ -1,16 +1,18 @@
 package org.openjfx.models;
 
-public class Person {
+public class Kontaktperson {
     private String fornavn;
     private String etternavn;
     private String telefonnr;
     private String epost;
+    private String virksomhet;
 
-    public Person(String fornavn, String etternavn, String telefonnr, String epost){
+    public Kontaktperson(String fornavn, String etternavn, String telefonnr, String epost, String virksomhet){
         this.fornavn = fornavn;
         this.etternavn = etternavn;
         this.telefonnr = telefonnr;
         this.epost = epost;
+        this.virksomhet = virksomhet;
     }
 
     public void setFornavn(String fornavn){
@@ -43,5 +45,13 @@ public class Person {
 
     public String getEpost(){
         return epost;
+    }
+
+    public void setVirksomhet(String virksomhet){
+        this.virksomhet = virksomhet;
+    }
+
+    public String getVirksomhet(){
+        return virksomhet;
     }
 }
