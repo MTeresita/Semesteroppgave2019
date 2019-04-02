@@ -24,4 +24,6 @@ public class Billett {
     public void setAntallplasser(int[] antallplasser) {
         this.antallplasser = antallplasser;
     }
+
+
 }

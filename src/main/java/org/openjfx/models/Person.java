@@ -45,5 +45,8 @@ public class Person {
         return epost;
     }
 
+    public void registrerPerson(){
+
+    }
     
 }
