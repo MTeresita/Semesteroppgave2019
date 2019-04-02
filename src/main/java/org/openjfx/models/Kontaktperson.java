@@ -1,50 +1,21 @@
 package org.openjfx.models;
 
-public class Kontaktperson {
-    private String fornavn;
-    private String etternavn;
-    private String telefonnr;
-    private String epost;
+public class Kontaktperson extends Person{
     private String virksomhet;
+    private String opplysninger;
 
-    public Kontaktperson(String fornavn, String etternavn, String telefonnr, String epost, String virksomhet){
-        this.fornavn = fornavn;
-        this.etternavn = etternavn;
-        this.telefonnr = telefonnr;
-        this.epost = epost;
+    public Kontaktperson (String fornavn, String etternavn, String telefonnr, String epost, String virksomhet, String opplysninger){
+        super(fornavn, etternavn, telefonnr,epost);
         this.virksomhet = virksomhet;
+        this.opplysninger = opplysninger;
     }
 
-    public void setFornavn(String fornavn){
-        this.fornavn = fornavn;
+    public void setOpplysninger(String opplysninger) {
+        this.opplysninger = opplysninger;
     }
 
-    public String getFornavn(){
-        return fornavn;
-    }
-
-    public void setEtternavn(String etternavn){
-        this.etternavn = etternavn;
-    }
-
-    public String getEtternavn(){
-        return etternavn;
-    }
-
-    public void setTelefonnr(String telefonnr){
-        this.telefonnr = telefonnr;
-    }
-
-    public String getTelefonnr(){
-        return telefonnr;
-    }
-
-    public void setEpost(String epost){
-        this.epost = epost;
-    }
-
-    public String getEpost(){
-        return epost;
+    public String getOpplysninger() {
+        return opplysninger;
     }
 
     public void setVirksomhet(String virksomhet){
