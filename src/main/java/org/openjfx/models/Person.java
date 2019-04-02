@@ -1,49 +1,50 @@
 package org.openjfx.models;
 
 public class Person {
-    private String fornavn;
-    private String etternavn;
-    private String telefonnr;
-    private String epost;
+    private String firstName;
+    private String lastName;
+    private String phoneNr;
+    private String email;
 
-    public Person(String fornavn, String etternavn, String telefonnr, String epost){
-        this.fornavn = fornavn;
-        this.etternavn = etternavn;
-        this.telefonnr = telefonnr;
-        this.epost = epost;
+    public Person(String firstName, String lastName, String phoneNr, String email){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNr = phoneNr;
+        this.email = email;
     }
 
-    public void setFornavn(String fornavn){
-        this.fornavn = fornavn;
+    public void setFirstName(String firstName){
+        this.firstName = firstName;
     }
 
-    public String getFornavn(){
-        return fornavn;
+    public String getFirstName(){
+        return firstName;
     }
 
-    public void setEtternavn(String etternavn){
-        this.etternavn = etternavn;
+    public void setLastName(String lastName){
+        this.lastName = lastName;
     }
 
-    public String getEtternavn(){
-        return etternavn;
+    public String getLastName(){
+        return lastName;
     }
 
-    public void setTelefonnr(String telefonnr){
-        this.telefonnr = telefonnr;
+    public void setPhoneNr(String phoneNr){
+        this.phoneNr = phoneNr;
     }
 
-    public String getTelefonnr(){
-        return telefonnr;
+    public String getPhoneNr(){
+        return phoneNr;
     }
 
-    public void setEpost(String epost){
-        this.epost = epost;
+    public void setEmail(String email){
+        this.email = email;
     }
 
-    public String getEpost(){
-        return epost;
+    public String getEmail(){
+        return email;
     }
+
 
     public void registrerPerson(){
 
