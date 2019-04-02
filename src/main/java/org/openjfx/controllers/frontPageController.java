@@ -1,6 +1,6 @@
 package org.openjfx.controllers;
 
-public class forsideController {
+public class frontPageController {
 
 
 

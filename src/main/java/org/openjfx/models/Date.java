@@ -1,9 +1,9 @@
 package org.openjfx.models;
 
-public class Dato {
+public class Date {
     private int dag, måned, år;
 
-    public Dato (int dag, int måned, int år){
+    public Date(int dag, int måned, int år){
         this.dag = dag;
         this.måned = måned;
         this.år = år;

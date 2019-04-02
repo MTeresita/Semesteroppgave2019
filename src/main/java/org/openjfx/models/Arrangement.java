@@ -1,12 +1,15 @@
 package org.openjfx.models;
 
+
 public class Arrangement{
-    private String navn;
-    private String gjest; //artist eller foredragsholder
-    private Dato tidspunkt; //skal opprette en klasse som denne er et objekt av.
+    private String name;
+    private String guest; //artist eller foredragsholder
+    private Date date; //skal opprette en klasse som denne er et objekt av.
 
-    public Arrangement(String navn, String gjest, Dato tidspunkt){
-
+    public Arrangement(String name, String guest, Date date){
+        this.name = name;
+        this.guest = guest;
+        this.date = date;
     }
 
 }
